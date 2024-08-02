@@ -14,10 +14,3 @@ You will need a personal GitHub account for today's workshop. If you don't alrea
 Within the web interface, we will be running commands directly against our cluster using what is known as the [Web Terminal Operator](https://docs.openshift.com/container-platform/latest/web_console/web_terminal/installing-web-terminal.html). This allows us to establish a session with the cluster using the currently logged in user, and all the required tooling (e.g. [oc](https://docs.openshift.com/container-platform/4.16/cli_reference/openshift_cli/getting-started-cli.html) and [kubectl](https://kubernetes.io/docs/tasks/tools/) command line tools) is made available.
 
 ![Diagram](media/diagram.png)
-
-#### SSH Session
-So our first step will be to SSH into the jump host. Details will be provided by the instructor providing the command to run and the required password.
-
-It will look similar to this: **ssh student01@3.104.30...**
-
-![Jump host SSH](media/jumpssh.png)
